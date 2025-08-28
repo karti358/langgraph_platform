@@ -1,0 +1,16 @@
+{
+ "dependencies": [
+    "langchain_openai",
+    "langgraph",
+    "python-dotenv",
+    "langchain_google_genai",
+    "langchain_community",
+    "langsmith",
+    "ddgs",
+    "./agent"
+  ],
+  "graphs": {
+    "graph": "./agent/agent.py:graph"
+  },
+  "env": ".env"
+}
